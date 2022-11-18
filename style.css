@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Quantico:wght@700&family=Syne+Mono&family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Logo e imagen de fondo */
+
+
+.conenidoheader{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.imginicio {
+    width: 1350px;
+    height: 400px;
+   
+
+
+}
+
+.titulo2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 250px;
+    color: grey;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+
+      
+
+}
+
+/* Menú */
+nav ul {
+    text-align: center;
+    background-color: blue;
+    cursor: pointer;
+    
+
+
+}
+
+li {
+    cursor: pointer;
+    font-size: 30px;
+    display: inline;
+    margin: 20px;
+    color: rgb(45, 45, 170);
+    
+
+}
+
+.navegador {
+    text-decoration: none;
+    color: white;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* cards */
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    border-radius: 30px;
+    padding: 40px 25px;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+   
+    
+    
+}
+
+.imgcard {
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 20px;
+
+
+}
+ .btn {
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+    background-color: #808080;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    align-items: center;
+    
+          
+
+}
+
+
+
+/* /* video de laboratorio y txt */
+
+.contenido3 {
+    display: flex;
+    position: relative;
+
+}
+
+.videozhumao {
+    width: 1350px;
+}
+
+h3 {
+    position: absolute;
+    top: 55px;
+    left: 45px;
+    font-size: 50px;
+    font-family: 'Bungee', cursive;
+    color: #fff
+} 
+
+/* texto antes del footer */
+
+.txtlab {
+    display: block;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 25px;
+    background-color: #808080;
+    color: #fff;
+
+
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-brands {
+    font-size: 90px;
+    color: white;
+    margin: 10px;
+
+
+}
+
+@media screen and (max-width: 1002px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo2{
+        font-size: 10px;
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    footer{
+
+        display: flex;
+        flex-direction: column;
+        font: 60px;
+    }
+
+    .titulo2{
+        font-size: 10px;
+        display: none;
+
+    }
+
+}
