@@ -8,26 +8,14 @@
 }
 
 
-/* Logo e imagen de fondo */
+/* Logo y hero */
 
 
-.conenidoheader{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    overflow: hidden;
-    
-
-}
-
-
-
-.imginicio {
-    width: 1350px;
-    height: 400px;
-   
-
-
+.contenidoheader {
+    background-image: url("imgvideo/bluelines.jpg");
+    text-align: center;
+    width: 100%;
+    height: 700px;
 }
 
 .titulo2 {
@@ -36,20 +24,17 @@
     letter-spacing: 2px;
     font-size: 250px;
     color: grey;
-    position: absolute;
-    top: 90px;
-    left: 100px;
-
-      
+    margin: 0px auto;
+    position: relative;
+    top: 30%;
 
 }
 
 /* Menú */
 nav ul {
     text-align: center;
-    background-color: blue;
-    cursor: pointer;
-    
+    background-color: rgb(27, 27, 165);
+
 
 
 }
@@ -60,16 +45,24 @@ li {
     display: inline;
     margin: 20px;
     color: rgb(45, 45, 170);
-    
+
 
 }
 
 .navegador {
     text-decoration: none;
-    color: white;
+    color: white !important;
     font-family: 'Boogaloo', cursive;
     font-family: 'Bungee Spice', cursive;
     font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.spanmenu:hover {
+
+    color: rgb(128, 128, 128) !important;
+    
 
 }
 
@@ -79,12 +72,12 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
-    
+
+
 
 }
 
-.card{
+.card {
     background-color: white;
     box-shadow: 0 0 10px grey;
     border-radius: 30px;
@@ -94,9 +87,9 @@ li {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-   
-    
-    
+
+
+
 }
 
 .imgcard {
@@ -108,10 +101,11 @@ li {
 
 
 }
- .btn {
+
+.btn {
     font-size: 15px;
     text-decoration: none;
-    color:white;
+    color: white !important;
     background-color: #808080;
     font-family: 'Boogaloo', cursive;
     font-family: 'Bungee Spice', cursive;
@@ -120,8 +114,14 @@ li {
     border-radius: 10px;
     box-shadow: 0 0 10px grey;
     align-items: center;
-    
-          
+
+
+
+}
+
+span:hover {
+
+    color: rgb(45, 45, 170) !important;
 
 }
 
@@ -136,7 +136,7 @@ li {
 }
 
 .videozhumao {
-    width: 1350px;
+    width: 100%;
 }
 
 h3 {
@@ -146,9 +146,9 @@ h3 {
     font-size: 50px;
     font-family: 'Bungee', cursive;
     color: #fff
-} 
+}
 
-/* texto antes del footer */
+/* txt antes del footer */
 
 .txtlab {
     display: block;
@@ -188,32 +188,88 @@ footer {
         font-size: 2rem;
     }
 
+
     nav li {
         display: flex;
         flex-direction: column;
     }
 
-    .titulo2{
+    .titulo2 {
         font-size: 10px;
         width: 50%;
 
     }
 
+    h3 {
+        position: absolute;
+        top: 55px;
+        left: 45px;
+        font-size: 40px;
+        font-family: 'Bungee', cursive;
+        color: #fff
+    }
+
+    .titulo2 {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 50px;
+        color: blue;
+        margin: 0px auto;
+        position: relative;
+        top: 30%;
+    }
+
+    .contenidoheader {
+        background-image: none;
+        text-align: center;
+        width: 100%;
+        height: 10%;
+    }
+
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
 
-    footer{
+    footer {
 
         display: flex;
         flex-direction: column;
         font: 60px;
     }
 
-    .titulo2{
-        font-size: 10px;
-        display: none;
 
+    .titulo2 {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 50px;
+        color: blue;
+        margin: 0px auto;
+        position: relative;
+        top: 30%;
+    }
+
+    .contenidoheader {
+        background-image: none;
+        text-align: center;
+        width: 100%;
+        height: 10%;
+    }
+
+    h3 {
+        position: absolute;
+        top: 55px;
+        left: 45px;
+        font-size: 20px;
+        font-family: 'Bungee', cursive;
+        color: #fff
+    }
+
+    .fa-brands {
+        font-size: 40px;
+        color: white;
+        margin: 10px;
     }
 
 }
