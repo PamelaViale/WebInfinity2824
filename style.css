@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Quantico:wght@700&family=Syne+Mono&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Fredoka+One&family=Noto+Serif+Gujarati:wght@200;300;400&family=Silkscreen&display=swap');
+
 
 * {
     margin: 0;
@@ -62,7 +64,7 @@ li {
 .spanmenu:hover {
 
     color: rgb(128, 128, 128) !important;
-    
+
 
 }
 
@@ -153,7 +155,7 @@ h3 {
 .txtlab {
     display: block;
     text-align: center;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Noto Serif Gujarati', serif;
     font-size: 25px;
     background-color: #808080;
     color: #fff;
@@ -179,6 +181,7 @@ footer {
 
 
 }
+
 
 @media screen and (max-width: 1002px) {
 
