@@ -277,3 +277,18 @@ footer {
     }
 
 }
+
+ @media screen and (min-width: 380px){
+
+    h3 {
+        position: absolute;
+        top: 55px;
+        left: 45px;
+        font-size: 30px;
+        font-family: 'Bungee', cursive;
+        color: #fff
+    }
+
+} 
+
+
